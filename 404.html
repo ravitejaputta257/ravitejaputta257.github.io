@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Page not found — Ravi Teja Putta</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+<style>
+  :root {
+    --bg: #0b0b0c; --surface: #131316; --line: #26262c;
+    --text: #eaeaec; --muted: #9a9aa4; --accent: #e9b44c;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #fbfaf7; --surface: #fff; --line: #e4e1d8; --text: #14141a; --muted: #5c5c68; --accent: #8a5a00; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 32px;
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65; -webkit-font-smoothing: antialiased;
+  }
+  .card { max-width: 460px; }
+  .code {
+    font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--muted);
+  }
+  h1 { margin: 14px 0 0; font-size: clamp(2rem, 7vw, 2.9rem); line-height: 1.1; letter-spacing: -0.03em; }
+  p { margin: 14px 0 0; color: var(--muted); }
+  .rule { height: 1px; background: var(--line); margin: 26px 0; border: 0; }
+  a.btn {
+    display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px;
+    border-radius: 999px; background: var(--accent); color: #0b0b0c;
+    font-weight: 650; font-size: 0.92rem; text-decoration: none;
+  }
+  a.plain { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; font-size: 0.88rem; }
+  .row { display: flex; flex-wrap: wrap; gap: 18px; align-items: center; margin-top: 24px; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <p class="code">Error 404</p>
+    <h1>That page isn't here.</h1>
+    <p>
+      The link is broken, or the page moved. Everything worth reading is on the
+      home page — the two projects, the skills breakdown and the resume download.
+    </p>
+    <hr class="rule" />
+    <div class="row">
+      <a class="btn" href="/">Back to the portfolio</a>
+      <a class="plain" href="mailto:ravitejacme041@gmail.com">ravitejacme041@gmail.com</a>
+    </div>
+  </main>
+</body>
+</html>

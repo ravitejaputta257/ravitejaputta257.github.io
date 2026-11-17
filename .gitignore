@@ -1,0 +1,16 @@
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.local
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Nothing built is committed here, but in case a tool drops something
+node_modules/
+dist/
