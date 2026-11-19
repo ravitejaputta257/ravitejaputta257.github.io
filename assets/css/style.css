@@ -45,6 +45,8 @@ html[data-theme="dark"] {
   --cover-agri-2: #0d1f19;
   --cover-tracker-1: #312a6b;
   --cover-tracker-2: #151233;
+  --cover-recall-1: #14453f;
+  --cover-recall-2: #0a1e1c;
 }
 
 html[data-theme="light"] {
@@ -67,6 +69,8 @@ html[data-theme="light"] {
   --cover-agri-2: #eef6f0;
   --cover-tracker-1: #dcd9f7;
   --cover-tracker-2: #f0eefc;
+  --cover-recall-1: #cdece6;
+  --cover-recall-2: #eef9f6;
 }
 
 /* ── 2. reset ────────────────────────────────────────────────────────────── */
@@ -382,6 +386,11 @@ html[data-theme="light"] .theme-toggle .icon-moon { display: block; }
   background:
     radial-gradient(120% 100% at 82% 12%, var(--cover-tracker-1), transparent 62%),
     linear-gradient(150deg, var(--cover-tracker-2), var(--cover-tracker-1));
+}
+.cover-recall {
+  background:
+    radial-gradient(120% 100% at 82% 12%, var(--cover-recall-1), transparent 62%),
+    linear-gradient(150deg, var(--cover-recall-2), var(--cover-recall-1));
 }
 .cover-mono,
 .cover-initials,
